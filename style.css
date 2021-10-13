@@ -14,10 +14,14 @@ header .header-top {
 
 
 header .header-left {
+    padding-left: 51px;
     float: left;
     position: absolute;
     top: 18px;
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
 }
+
 
 header .header-left p {
     display: inline-block;
@@ -38,6 +42,7 @@ header .header-left .logo-title {
 }
 
 header .header-right {
+    float: right;
 }
 
 .main-visual img {
