@@ -55,11 +55,24 @@ header .header-right {
 }
 
 header .header-right ul li {
-    display: inline;
-    padding-left: 25px;
+    display: inline-block;
+    margin-left: 25px;
     font-size: 16px;
     font-weight: bold;
 }
+
+header .header-right ul li.home::after {
+    content: "";
+    display: block;
+    width: 100%;    
+    background-image: url(images/navbar.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: solid 4px;
+    border-color: #345c39;
+    padding-top: 6px;
+}
+
 
 header .header-right ul li a {
     color: #734339;
@@ -67,11 +80,6 @@ header .header-right ul li a {
 
 header .header-right .home a {
     color: #345c39;
-    background-image: url(images/navbar.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    border-bottom: solid 4px;
-    border-color: #345c39;
 }
 
 header .header-right ul li a {
