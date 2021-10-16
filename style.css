@@ -1,7 +1,15 @@
 body {
     background-image: url("images/background.png");
     background-size: 1440px 710px;
+    font-family: "Meiryo","メイリオ";
+}
+
+li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -10,14 +18,13 @@ header {
 
 header .header-top {
     float: right;
+    padding-left: 575px;
 }
 
 
 header .header-left {
     padding-left: 51px;
     float: left;
-    position: absolute;
-    top: 18px;
     background-image: url("images/logo.png");
     background-repeat: no-repeat;
 }
@@ -43,6 +50,30 @@ header .header-left .logo-title {
 
 header .header-right {
     float: right;
+    padding-top: 35px;
+}
+
+header .header-right ul li {
+    display: inline;
+    padding-left: 25px;
+    font-size: 16px;    
+    font-weight: bold;
+}
+
+header .header-right ul li a {
+    color: #734339;
+}
+
+header .header-right .home a {
+    color: #345c39;
+    background-image: url(images/navbar.png);
+    border-bottom: solid 4px;
+    border-color: #345c39;    
+    background-repeat: no-repeat;
+}
+
+header .header-right ul li a {
+    font-weight: bold;
 }
 
 .main-visual img {
