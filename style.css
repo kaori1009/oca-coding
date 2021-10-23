@@ -111,7 +111,7 @@ header .header-right .home a {
     padding: 10px;
 }
 
-.linkbox-title {
+.linkbox-title,.menu-title {
     height: 23px;
     border-left: solid 5px #ba3009;
     padding-left: 10px;    
@@ -186,3 +186,51 @@ footer p {
     text-align: center;
 }
 
+.title {
+    background-image: url(images/title.jpg);
+    width: 950px;
+    height: 70px;
+    border: solid 5px #fff;
+    box-shadow: 0px 2px 7px rgba(83, 78, 61, 0.30);
+    margin-bottom: 20px; 
+}
+
+.title p {       
+    line-height: 70px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #2f5734;
+}
+
+
+header .header-right ul li.home::after {
+    content: "";
+    display: block;
+    width: 100%;    
+    background-image: url(images/navbar.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-top: solid 4px;
+    border-color: #345c39;
+    padding-top: 6px;
+}
+
+.menu-information {
+    float: left;
+    width: 555px;
+    height: 330px;
+    background-color: #fff;
+    box-shadow: 0px 2px 7px rgba(83, 78, 61, 0.30);
+    padding: 10px;
+}
+
+.menu-sub {
+    font-size: 13px;
+}
+
+.menu {
+    font-size: 15px;
+    color: #734339;
+    font-weight: bold;
+}
