@@ -100,20 +100,27 @@ header .header-right li:hover a
     box-shadow: 0px 2px 7px rgba(83, 78, 61, 0.30);
 }
 
-.linkbox-information {
+.linkbox-information,
+.menu-information
+ {
     float: left;
     width: 555px;
-    height: 178px;
     background-color: #fff;
     box-shadow: 0px 2px 7px rgba(83, 78, 61, 0.30);
     padding: 10px;
 }
 
-.linkbox-title,.menu-title {
+.linkbox-title,
+.menu-title
+ {
     height: 23px;
     border-left: solid 5px #ba3009;
     padding-left: 10px;    
     margin-bottom: 10px;
+}
+
+.linkbox-list {
+    height: 145px;
 }
 
 .linkbox-list .link {
@@ -136,7 +143,9 @@ header .header-right li:hover a
     opacity: 0.5;
 }
 
-.linkbox-title h2 {
+.linkbox-title h2,
+.menu-title h2 
+{
     font-size: 17px;
     font-weight: bold;
     color: #734339;
@@ -216,21 +225,22 @@ header .header-right ul li.home::after {
     padding-top: 6px;
 }
 
-.menu-information {
-    float: left;
-    width: 555px;
-    height: 330px;
-    background-color: #fff;
-    box-shadow: 0px 2px 7px rgba(83, 78, 61, 0.30);
-    padding: 10px;
+.menu-list {
+    height: 275px;
 }
 
 .menu-sub {
     font-size: 13px;
+    color: #927e7a;
+    letter-spacing: 0.06em;
+    padding-bottom: 15px;
 }
 
 .menu {
     font-size: 15px;
     color: #734339;
-    font-weight: bold;
+}
+
+.menu-sub ul {
+    padding-left: 10px;
 }
