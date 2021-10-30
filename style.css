@@ -249,7 +249,6 @@ header .header-right ul li.home::after {
 }
 
 .contact-list {
-    height: 260px;
 }
 
 .contact-lead {
@@ -265,11 +264,19 @@ header .header-right ul li.home::after {
 }
 
 .contact {
-    height: 22px;
     width: 555px;
     padding-top: 10px;
+    display: flex;
 
 } 
+
+.contact label {
+    width: 131px;
+}
+
+.contact .form {
+    width: calc(100% - 131px);
+}
 
 .contact p {
     font-size: 15px;
@@ -277,9 +284,7 @@ header .header-right ul li.home::after {
     font-weight: bold;
 }
 
-input {
-    float: right;
-    width: 420px;
+.contact .form input {
     border: solid 1px #a6a6a6;
 }
 
@@ -289,8 +294,7 @@ input {
     vertical-align: -10px;
 }
 
-.time { 
-    float: none;
+.contact .form .time {
     width: 45px;
     margin-right: 5px;
 }
