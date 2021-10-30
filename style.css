@@ -101,7 +101,8 @@ header .header-right li:hover a
 }
 
 .linkbox-information,
-.menu-information
+.menu-information,
+.contact-information
  {
     float: left;
     width: 555px;
@@ -111,7 +112,8 @@ header .header-right li:hover a
 }
 
 .linkbox-title,
-.menu-title
+.menu-title,
+.contact-title
  {
     height: 23px;
     border-left: solid 5px #ba3009;
@@ -144,7 +146,8 @@ header .header-right li:hover a
 }
 
 .linkbox-title h2,
-.menu-title h2 
+.menu-title h2,
+.contact-title h2 
 {
     font-size: 17px;
     font-weight: bold;
@@ -243,4 +246,26 @@ header .header-right ul li.home::after {
 
 .menu-sub ul {
     padding-left: 10px;
+}
+
+.contact-list {
+    height: 260px;
+}
+
+.contact-lead {
+    height: 30px;
+    width: 535px;
+    padding: 10px;
+    background-color: #ffefea;
+}
+
+.contact-lead p {
+    font-size: 12px;
+    color: #927e7a;
+}
+
+.contact-list p {
+    height: 20px;
+    width: 130px;
+    font-size: 15px;
 }
