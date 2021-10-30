@@ -248,9 +248,6 @@ header .header-right ul li.home::after {
     padding-left: 10px;
 }
 
-.contact-list {
-}
-
 .contact-lead {
     height: 30px;
     width: 535px;
@@ -291,6 +288,9 @@ header .header-right ul li.home::after {
 .contact span {
     font-size: 13px;
     color: #a6a6a6;
+}
+
+.contact .form .time-span {
     vertical-align: -10px;
 }
 
