@@ -264,8 +264,38 @@ header .header-right ul li.home::after {
     color: #927e7a;
 }
 
-.contact-list p {
-    height: 20px;
-    width: 130px;
+.contact {
+    height: 22px;
+    width: 555px;
+    padding-top: 10px;
+
+} 
+
+.contact p {
     font-size: 15px;
+    color: #734339;
+    font-weight: bold;
+}
+
+input {
+    float: right;
+    width: 420px;
+    border: solid 1px #a6a6a6;
+}
+
+.contact span {
+    font-size: 13px;
+    color: #a6a6a6;
+    vertical-align: -10px;
+}
+
+.time { 
+    float: none;
+    width: 45px;
+    margin-right: 5px;
+}
+
+.check {
+    float: none;
+    width: 10px;
 }
