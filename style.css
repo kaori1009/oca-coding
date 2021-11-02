@@ -261,7 +261,7 @@ header .header-right ul li.home::after {
 }
 
 .contact {
-    width: 555px;
+    width: 100%;
     padding-top: 10px;
     display: flex;
 
@@ -281,8 +281,18 @@ header .header-right ul li.home::after {
     font-weight: bold;
 }
 
-.contact .form input, textarea {
+.contact .form input,
+.contact .form textarea
+ {
+    box-sizing: border-box;
     border: solid 1px #a6a6a6;
+}
+
+.contact .form input,
+.contact .form textarea
+ {
+     width: 100%;
+
 }
 
 .contact span {
