@@ -1,0 +1,19 @@
+.menu-list {
+    height: 275px;
+}
+
+.menu-sub {
+    font-size: 13px;
+    color: #927e7a;
+    letter-spacing: 0.06em;
+    padding-bottom: 15px;
+}
+
+.menu {
+    font-size: 15px;
+    color: #734339;
+}
+
+.menu-sub ul {
+    padding-left: 10px;
+}

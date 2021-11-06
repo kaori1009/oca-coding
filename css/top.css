@@ -6,3 +6,21 @@
     border: solid 5px #fff;
     box-shadow: 0px 2px 7px rgba(83, 78, 61, 0.30);
 }
+
+.linkbox-list {
+    height: 145px;
+}
+
+.linkbox-list .link {
+    color: #927e7a;
+    font-size: 12px;
+    width: 100%;
+    margin: 10px 0;
+    border-bottom: dotted 1px #927e7a;
+}
+
+.linkbox-list a {
+    color: #927e7a;
+    font-size: 13px;
+    margin-left: 10px;
+}
