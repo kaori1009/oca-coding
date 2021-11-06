@@ -45,12 +45,13 @@
                              お問い合わせの場合は、【お客様ご要望欄】に記入して送信してください。</p>
                     </div>
                     <div class="contact-list">
+                        <form action="">
                         <div class="contact">
-                            <label>
+                            <label for="name">
                                 <p>お名前</p>
                             </label>
                             <div class="form">
-                                <input type="text">
+                                <input id="name" type="text">
                             </div>                            
                         </div>
                         <div class="contact">
@@ -66,7 +67,7 @@
                                 <p>ご希望日時</p>
                             </label>
                             <div class="form">                         
-                                <input class="time" type="text"><span class="time-span">年</span>
+                                <label><input class="time" type="text"><span class="time-span">年</span></label>
                                 <input class="time" type="text"><span class="time-span">月</span>
                                 <input class="time" type="text"><span class="time-span">日</span>
                                 <input class="time" type="text"><span class="time-span">時から</span>
@@ -92,7 +93,7 @@
                             </div>
                         </div>
                         <input class="contact-submit" type="submit" value="送信する">
-
+                        </form>
                     </div>
                 </div>
                 <div class="bannerbox">
