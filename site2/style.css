@@ -1,0 +1,43 @@
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    height: 102px;
+    border-bottom: solid 3px #f6ac4e;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 7px rgba(24, 10, 27, 0.25);
+}
+
+.top {
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+}
+
+.top-left {
+    width: 582px;
+    height: 360px;
+    background-color: pink;
+}
+
+.top-right {
+    width: calc(100% - 582px);
+    height: 360px;
+    background-color: plum;
+}
+
+.bottom-left {
+    width: 280px;
+    height: 1052px;
+    background-color: palevioletred;
+}
+
+.bottom-right {
+    width: calc(100% - 280px);
+    height: 1052px;
+    background-color: rebeccapurple;
+}
