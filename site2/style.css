@@ -1,5 +1,10 @@
 body {
     font-family: "Meiryo","メイリオ";
+    background-color: #f6f6f6;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 li {
@@ -24,6 +29,7 @@ header {
     border-bottom: solid 3px #f6ac4e;
     margin-bottom: 30px;
     box-shadow: 0px 4px 7px rgba(79, 51, 16, 0.25);
+    background-color: #fff;
 }
 
 .header-left {
@@ -64,9 +70,8 @@ header {
 .top-left {
     position: relative;
     width: 582px;
-    height: 360px;
-    background-color: pink;
     border: solid 1px #dcdddf;
+    background-color: #fff;
 }
 
 .top-left .thumb {
@@ -85,15 +90,19 @@ header {
     border: solid 1px #fff;
 }
 
-.top-left p {
+.top-left h2 {
     font-weight: bold;
     font-size: 18px;
     color: #434343;
-    padding: 20px;
     line-height: 27px;
 }
 
-.top-left span {
+.top-left .title {    
+    padding: 14px 20px;
+}
+
+
+.top-left .date {
     font-size: 12px;
     color: #dcdddf;
     line-height: 21px;
