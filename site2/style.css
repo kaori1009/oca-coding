@@ -69,11 +69,11 @@ header {
     border: solid 1px #dcdddf;
 }
 
-.top-left h2 {
-    border: solid 1px #fff;
+.top-left .thumb {
+    border-bottom: solid 1px #dcdddf;
 }
 
-.top-left h2 p {
+.top-left .thumb .category {
     display: inline-block;
     position: absolute;
     right: 0px;
