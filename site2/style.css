@@ -50,6 +50,10 @@ header {
     border-right: dotted 1px #737172;
 }
 
+.header-right li a {
+    color: #434343;
+}
+
 /* ---------------------------------------------------------------------------
 ヘッダーここまで
 --------------------------------------------------------------------------- */
@@ -101,7 +105,6 @@ header {
     padding: 14px 20px;
 }
 
-
 .top-left .date {
     font-size: 12px;
     color: #dcdddf;
@@ -115,7 +118,77 @@ header {
 .top-right {
     width: 348px;
     height: 360px;
-    background-color: plum;
+}
+
+.top-right .ranking {    
+    position: relative;
+    height: 30px;
+    border-bottom: solid 1px #dcdddf;
+    background-image: url("images/popular_icon.png");
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+.top-right .ranking h2 {
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #434343;
+}
+
+.top-right .ranking-list {
+    display: flex;
+    padding: 15px 0px;
+    border-bottom: dotted 1px #dcdddf;
+}
+
+.top-right .ranking-list .ranking-image {
+    width: 89px;
+    height: 55px;
+}
+
+.top-right .ranking-list .number {    
+    position: absolute;
+    font-size: 12px;
+    width: 19px;
+    height: 19px;
+    text-align: center; 
+    background-color: #434343;
+    border: solid 1px #fff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.top-right .ranking-list .ranking-title {
+    width: 249px;
+    margin-left: 10px;
+}
+
+.top-right .ranking-list .ranking-title h3 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.top-right .ranking-list .ranking-title .category-small {
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    width: 76px;
+    height: 16px;
+    text-align: center;
+}
+
+.top-right .ranking-list .ranking-title .web {
+    background-color: rgb(246, 172, 77);
+}
+
+.top-right .ranking-list .ranking-title .word {
+    background-color: rgb(225, 140, 124);
+}
+
+.top-right .ranking-list .ranking-title .webm {
+    width: 105px;
+    background-color: rgb(172, 213, 154);
 }
 
 /* トップ右ここまで */
