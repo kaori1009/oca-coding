@@ -206,6 +206,7 @@ header {
     justify-content: space-between;
 }
 
+/* ボトム左ここから */
 
 .bottom-left {
     width: 280px;
@@ -213,11 +214,36 @@ header {
     background-color: palevioletred;
 }
 
+.bottom-left .category-list {
+    height: 210px;
+    width: 280px;
+    background-color: #fff;
+    border: solid 10px #dcdddf;
+}
+
+.bottom-left .category-title {
+    background-image: url("images/category_icon.png");
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.bottom-left .category-title h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+/* ボトム左ここまで */
+
+/* ボトム右ここから */
+
 .bottom-right {
     width: 650px;
     height: 1052px;
     background-color: rebeccapurple;
 }
+
+/* ボトム右ここまで */
 
 /* ---------------------------------------------------------------------------
 ボトムここまで
