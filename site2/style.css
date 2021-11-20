@@ -82,11 +82,14 @@ header {
     border-bottom: solid 1px #dcdddf;
 }
 
-.top-left .thumb img {
+.top-left .thumb img,
+ {
     vertical-align: bottom;
 }
 
-.top-left .thumb .category {
+.top-left .thumb .category,
+.bottom-right .article-lists .article-list .article-image .category
+ {
     display: inline-block;
     position: absolute;
     right: 0px;
@@ -123,7 +126,7 @@ header {
     width: 348px;
 }
 
-.top-right .ranking {    
+.top-right .ranking { 
     position: relative;
     height: 30px;
     border-bottom: solid 1px #dcdddf;
@@ -266,6 +269,82 @@ header {
     height: 1052px;
     background-color: rebeccapurple;
 }
+
+.bottom-right .new-article {
+    background-image: url("images/new_icon.png");
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.bottom-right .new-article h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 30px;
+    line-height: 20px;
+}
+
+.bottom-right .article-lists .article-list {
+    display: flex;
+    background-color: #fff;
+    border: solid 1px #dcdddf;
+    height: 153px;
+    margin-bottom: 30px;
+}
+
+.bottom-right .article-lists .article-list .article-image {
+    position: relative;
+}
+
+.bottom-right .article-lists .article-list .article-image .word {
+    background-color: rgba(225, 140, 124, 0.9);
+}
+
+.bottom-right .article-lists .article-list .article-image .webm {
+    width: 160px;
+    background-color: rgba(172, 213, 154, 0.9);
+}
+
+.bottom-right .article-lists .article-list .article {
+    padding: 13px;
+}
+
+.bottom-right .article-lists .article-list .article h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bottom-right .article-lists .article-list .article .item {
+    padding-bottom: 12px;
+}
+
+.bottom-right .article-lists .article-list .article .item p {
+    display: inline-block;
+    font-size: 13px;
+    color: #dcdddf;
+    padding-left: 17px;
+}
+
+.bottom-right .article-lists .article-list .article .item .new-date {
+    background-image: url("images/new_date.png");
+    background-repeat: no-repeat;
+}
+
+.bottom-right .article-lists .article-list .article .item .genre {
+    background-image: url("images/tag.png");
+    background-repeat: no-repeat;
+    margin-left: 13px;
+}
+
+.bottom-right .article-lists .article-list .article p {    
+    font-size: 13px
+}
+
+.bottom-right .article-lists .article-list .article p a {    
+    font-weight: bold;
+    color: #f6ac4d;
+    text-decoration: underline;
+}
+
 
 /* ボトム右ここまで */
 
