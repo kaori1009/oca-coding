@@ -82,14 +82,11 @@ header {
     border-bottom: solid 1px #dcdddf;
 }
 
-.top-left .thumb img,
- {
+.top-left .thumb img {
     vertical-align: bottom;
 }
 
-.top-left .thumb .category,
-.bottom-right .article-lists .article-list .article-image .category
- {
+.top-left .thumb .category {
     display: inline-block;
     position: absolute;
     right: 0px;
@@ -224,8 +221,7 @@ header {
 }
 
 .bottom-left .category-list {
-    height: 210px;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     margin-bottom: 30px;
     background-color: #fff;
     border: solid 10px #dcdddf;
@@ -247,15 +243,11 @@ header {
 }
 
 .bottom-left .category-list .category-type li {
-    padding: 8px 0px;    
-    line-height: 13px;
+    text-align: start;
 }
 
-.bottom-left .category-list .category-type li:nth-child(5){
-    padding-bottom: 0;
-}
-
-.bottom-left .category-list .category-type li a {
+.bottom-left .category-list .category-type li a {    
+    line-height: 2.4em;
     font-size: 13px;
     color: #231f20;    
 }
@@ -278,19 +270,38 @@ header {
     font-size: 22px;
     font-weight: bold;
     padding-left: 30px;
-    line-height: 20px;
+    line-height: 1;
 }
 
 .bottom-right .article-lists .article-list {
     display: flex;
     background-color: #fff;
     border: solid 1px #dcdddf;
-    height: 153px;
     margin-bottom: 30px;
 }
 
 .bottom-right .article-lists .article-list .article-image {
     position: relative;
+}
+
+.bottom-right .article-lists .article-list .article-image img {
+    vertical-align: bottom;
+}
+
+.bottom-right .article-lists .article-list .article-image .category
+ {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px;
+    border: solid 1px #fff;
+}
+
+.bottom-right .article-lists .article-list .article-image .web {
+    background-color: rgba(246, 172, 77, 0.9);
 }
 
 .bottom-right .article-lists .article-list .article-image .word {
