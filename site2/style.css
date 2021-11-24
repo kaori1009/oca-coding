@@ -212,6 +212,7 @@ header {
 .bottom {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 /* ボトム左ここから */
@@ -354,6 +355,40 @@ header {
     text-decoration: underline;
 }
 
+.bottom-right .page-link .page-number {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-right .page-link .page-number .page {
+    padding: 4px 9px;
+    margin-left: 10px;
+    border: solid 1px #dcdddf;
+    background-color: #fff;
+}
+
+.bottom-right .page-link .page-number .page:hover {
+    background-color: #f6ac4e;
+}
+
+.bottom-right .page-link .page-number .page a:hover {
+    color: #fff;
+}
+
+.bottom-right .page-link .page-number .page a {
+    text-align: center;
+    font-size: 16px;    
+    font-weight: bold;
+    color: #555555;
+}
+
+.bottom-right .page-link .page-number .one {
+    background-color: #f6ac4e;
+}
+
+.bottom-right .page-link .page-number .one a {
+    color: #fff;
+}
 
 /* ボトム右ここまで */
 
@@ -368,6 +403,56 @@ header {
 footer {
     height: 141px;
     border-top: solid 1px #dcdddf;
+    background-color: #fff;
+    padding-top: 20px;
+    color: #231f20;
+}
+
+footer .footer-left {
+    float: left;
+}
+
+footer .footer-left .address {
+    padding-top: 15px;
+}
+
+footer .footer-left .address p {
+    font-size: 15px;
+}
+
+footer .footer-right {
+    float: right;
+}
+
+footer .footer-right h2 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+footer .footer-right h2 span {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+footer .footer-right textarea {
+    display: block;
+    width: 374px;
+    height: 37px;
+    border: solid 1px #dcdddf;
+    margin: 10px 0;
+}
+
+footer .footer-right input {
+    display: block;
+    float: right;
+    width: 127px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #7e7e7e;
 }
 
 /* ---------------------------------------------------------------------------
