@@ -361,7 +361,6 @@ header {
 }
 
 .bottom-right .page-link .page-number .page {
-    padding: 4px 9px;
     margin-left: 10px;
     border: solid 1px #dcdddf;
     background-color: #fff;
@@ -376,6 +375,8 @@ header {
 }
 
 .bottom-right .page-link .page-number .page a {
+    display: inline-block;    
+    padding: 4px 9px;
     text-align: center;
     font-size: 16px;    
     font-weight: bold;
@@ -404,7 +405,7 @@ footer {
     height: 141px;
     border-top: solid 1px #dcdddf;
     background-color: #fff;
-    padding-top: 20px;
+    padding: 20px 0;
     color: #231f20;
 }
 
@@ -422,6 +423,7 @@ footer .footer-left .address p {
 
 footer .footer-right {
     float: right;
+    width: 374px;
 }
 
 footer .footer-right h2 {
@@ -436,16 +438,17 @@ footer .footer-right h2 span {
 }
 
 footer .footer-right textarea {
-    display: block;
-    width: 374px;
+    display: inline-block;
+    width: 100%;
     height: 37px;
     border: solid 1px #dcdddf;
     margin: 10px 0;
+    padding: 0.5em;
 }
 
 footer .footer-right input {
     display: block;
-    float: right;
+    margin-left: auto;
     width: 127px;
     height: 30px;
     color: #fff;
