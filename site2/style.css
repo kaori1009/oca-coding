@@ -54,6 +54,10 @@ header {
     color: #434343;
 }
 
+.header-right li a:hover {
+    opacity: 0.5;
+}
+
 /* ---------------------------------------------------------------------------
 ヘッダーここまで
 --------------------------------------------------------------------------- */
@@ -253,6 +257,11 @@ header {
     color: #231f20;    
 }
 
+.bottom-left .category-list .category-type li a:hover {
+    opacity: 0.5;
+}
+
+
 /* ボトム左ここまで */
 
 /* ボトム右ここから */
@@ -354,6 +363,11 @@ header {
     color: #f6ac4d;
     text-decoration: underline;
 }
+
+.bottom-right .article-lists .article-list .article p a:hover {
+    opacity: 0.5;
+}
+
 
 .bottom-right .page-link .page-number {
     display: flex;
